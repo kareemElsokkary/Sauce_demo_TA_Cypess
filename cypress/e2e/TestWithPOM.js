@@ -1,4 +1,4 @@
-import { login } from '../cypress/pages/loginpages.js';
+import { login } from '../cypress/pages/loginpages.js'
 
 describe('open Application', () => {
   it('open Application', () => {
