@@ -4,7 +4,9 @@ viewportHeight:1000,
 viewportWidth:1620,
 video:false,
   e2e: {
-  baseUrl:'https://www.saucedemo.com/',
+//  baseUrl:'http://example.com',
+
+ baseUrl:'https://www.saucedemo.com',
  // excludeSpecPattern: ['**/1-getting-started','**/2-advanced-examples'],
   
   specPattern:'cypress/e2e/**/*.{js,jsx,ts,tsx}',
