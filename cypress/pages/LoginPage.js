@@ -1,7 +1,8 @@
 class LoginPage {
   visitWebsite() {
-    cy.visit('/');
+    cy.visit('');
   }
+
 
     Enterusername(){
         let validusername='standard_user'
@@ -35,10 +36,14 @@ class LoginPage {
 
     }
 
-
+    LoginWithValidCredentials() {
+        this.Enterusername();
+        this.Enterpassword();
+        this.ClickonLogin();
+    }
 
 
 }
 
 export default LoginPage;
-export const login = new LoginPage();
+export const onLoginPage = new LoginPage();
