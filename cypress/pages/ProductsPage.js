@@ -1,4 +1,4 @@
-class Products{
+class ProductsPage {
     orderallitems(){
         cy.get('.btn').each( (items)=>{
             cy.wrap(items).click()
@@ -11,6 +11,19 @@ class Products{
                 expect(text.trim()).to.equals('Remove')
             })
         })
+    }
+
+    verifytheitemsisloaded() {
+        cy.get('.inventory_item').should('be.visible')
+    }
+
+    verifyItemsNumber(number) {
+
+        cy.get('.inventory_item').its('length').then((length) => {
+            expect(length).to.equal(number)
+            cy.log('Number of elements:', length);
+        });
+
     }
 
     AddFirstitems(){
@@ -26,12 +39,6 @@ class Products{
         })
     }
 
-  /*  GetPriceOfFirstitems(){
-        cy.get('.inventory_item_price').first().invoke('text').then( text=>{
-            return text
-        })
-    }*/
-
     GetPriceOfFirstitems() {
         return cy.get('.inventory_item_price').first().invoke('text').then((text) => {
             return text.trim(); // Optionally, trim the text to remove any extra spaces
@@ -40,4 +47,4 @@ class Products{
 
 
 }
-export const product = new Products()
+export const onProductPage = new ProductsPage()

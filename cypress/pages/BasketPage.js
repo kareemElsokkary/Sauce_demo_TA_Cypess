@@ -1,4 +1,4 @@
-class Basket {
+class BasketPage {
     openBasket(){
         cy.get('.shopping_cart_link').click()
     }
@@ -8,6 +8,9 @@ class Basket {
             expect(text.trim()).to.equals(price)
         })
     }
+    Checkout(){
+        cy.contains('Checkout').click()
+    }
 
 }
-export const basket = new Basket()
+export const onBasketPage = new BasketPage()
