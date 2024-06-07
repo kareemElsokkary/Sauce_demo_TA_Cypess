@@ -42,4 +42,35 @@ describe('Order Items', () => {
 
 
   });
+
+
+
+  it.only('Order First Items v2', () => {
+
+    onLoginPage.visitWebsite()
+    onLoginPage.LoginWithValidCredentials()
+
+    onProductPage.verifytheitemsisloaded()
+    onProductPage.verifyItemsNumber(6)
+    
+    onProductPage.AddFirstitems()
+    onProductPage.verifyFirstitemsisadded()
+    onProductPage.GetPriceOfFirstitemsV2()
+    onBasketPage.openBasket()
+    onBasketPage.VerifyPriceOfFirstitemsV2()
+    onBasketPage.Checkout()
+
+    OnCheckoutPage.EnterUserInformation('Kareem','Tester','12345')
+    OnCheckoutPage.Continue()
+
+    onOverviewPage.Finish()
+
+    OnCompletePage.ConfirmtheOrderisSubmitted()
+    OnCompletePage.BackHomePage()
+
+    onProductPage.verifytheitemsisloaded()
+    onProductPage.verifyItemsNumber(6)
+
+
+  });
 });

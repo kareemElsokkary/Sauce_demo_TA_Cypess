@@ -44,6 +44,13 @@ class ProductsPage {
             return text.trim(); // Optionally, trim the text to remove any extra spaces
         });
     }
+
+    GetPriceOfFirstitemsV2() {
+         cy.get('.inventory_item_price').first().invoke('text').then((text) => {
+          const price = text.trim(); // Optionally, trim the text to remove any extra spaces
+      cy.wrap(price).as('priceofFirstItem')
+        });
+    }
     ReorderItemfromLowtohigh(){
         cy.get('.product_sort_container').select('lohi')
         cy.contains('Price (low to high)').should('be.visible')
