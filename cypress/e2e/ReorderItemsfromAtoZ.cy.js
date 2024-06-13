@@ -6,30 +6,22 @@ import{onOverviewPage} from '../pages/OverviewPage';
 import {OnCompletePage} from '../pages/CompletePage';
 
 
-describe('Reorder Items', () => {
+describe('Reorder Items from A to Z', () => {
   beforeEach(() => {
     cy.clearCookies();
     cy.clearLocalStorage();
   });
 
-  it('Reorder Items', () => {
+  it('Reorder Items from A to Z', () => {
     onLoginPage.visitWebsite()
     onLoginPage.LoginWithValidCredentials()
 
     onProductPage.verifytheitemsisloaded()
     onProductPage.verifyItemsNumber(6)
 
-    onProductPage.ReorderItemfromLowtohigh()
-    onProductPage.VerifytheproductfromLowtohigh()
-
-    onProductPage.ReorderItemfromhightoLow()
-    onProductPage.VerifytheproductfromHightoLow()
-
     onProductPage.ReorderItemfromAtoZ()
     onProductPage.VerifytheproductfromAtoZ()
 
-    onProductPage.ReorderItemfromZtoA()
-    onProductPage.VerifytheproductfromZtoA()
 
   });
 });
