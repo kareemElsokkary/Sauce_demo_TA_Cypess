@@ -1,0 +1,106 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2024-06-13T14:04:50.673Z",
+    "end": "2024-06-13T14:04:55.222Z",
+    "duration": 4549,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "62b7334a-db7e-45ec-9983-60761dc3600b",
+      "title": "",
+      "fullFile": "cypress\\e2e\\OrderFirstItems.cy.js",
+      "file": "cypress\\e2e\\OrderFirstItems.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "67786724-0d47-4fde-8f2b-72e1cc2af122",
+          "title": "Order Only First Items",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Order First Items v2",
+              "fullTitle": "Order Only First Items Order First Items v2",
+              "timedOut": null,
+              "duration": 4444,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_LoginPage.onLoginPage.visitWebsite();\n_LoginPage.onLoginPage.LoginWithValidCredentials();\n_ProductsPage.onProductPage.verifytheitemsisloaded();\n_ProductsPage.onProductPage.verifyItemsNumber(6);\n_ProductsPage.onProductPage.AddFirstitems();\n_ProductsPage.onProductPage.verifyFirstitemsisadded();\n_ProductsPage.onProductPage.GetPriceOfFirstitemsV2();\n_BasketPage.onBasketPage.openBasket();\n_BasketPage.onBasketPage.VerifyPriceOfFirstitemsV2();\n_BasketPage.onBasketPage.Checkout();\n_CheckoutPage.OnCheckoutPage.EnterUserInformation('Kareem', 'Tester', '12345');\n_CheckoutPage.OnCheckoutPage.Continue();\n_OverviewPage.onOverviewPage.Finish();\n_CompletePage.OnCompletePage.ConfirmtheOrderisSubmitted();\n_CompletePage.OnCompletePage.BackHomePage();\n_ProductsPage.onProductPage.verifytheitemsisloaded();\n_ProductsPage.onProductPage.verifyItemsNumber(6);",
+              "err": {},
+              "uuid": "ad4efb7a-166e-40ff-a721-fcf4264822c9",
+              "parentUUID": "67786724-0d47-4fde-8f2b-72e1cc2af122",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "ad4efb7a-166e-40ff-a721-fcf4264822c9"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 4444,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/results/mochawesome",
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}

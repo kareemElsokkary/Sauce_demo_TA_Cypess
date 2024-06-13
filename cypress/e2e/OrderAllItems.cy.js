@@ -6,7 +6,7 @@ import{onOverviewPage} from '../pages/OverviewPage';
 import {OnCompletePage} from '../pages/CompletePage';
 
 
-describe('Order Items', () => {
+describe('Order All Items', () => {
   beforeEach(() => {
     cy.clearCookies();
     cy.clearLocalStorage();

@@ -1,6 +1,6 @@
 describe('Login', () => {
-let validusername='standard_user'
-let validPassword='secret_sauce'
+let validusername=Cypress.env('username');
+let validPassword=Cypress.env('password');
 
   it('Login with valid Credtential', () => {
      cy.visit('/')
@@ -39,6 +39,5 @@ let validPassword='secret_sauce'
             })
 
 
-          // cy.get('.active_option select option').eq('1').click({force: true})
         })
 })

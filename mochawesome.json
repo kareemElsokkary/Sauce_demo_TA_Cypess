@@ -1,0 +1,512 @@
+{
+  "stats": {
+    "suites": 8,
+    "tests": 8,
+    "passes": 8,
+    "pending": 0,
+    "failures": 0,
+    "testsRegistered": 8,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false,
+    "start": "2024-06-13T14:04:36.303Z",
+    "end": "2024-06-13T14:05:25.406Z",
+    "duration": 49103
+  },
+  "results": [
+    {
+      "uuid": "df1e608a-9eb4-415d-8a22-559fcbc80dfe",
+      "title": "",
+      "fullFile": "cypress\\e2e\\OrderAllItems.cy.js",
+      "file": "cypress\\e2e\\OrderAllItems.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "65a5d2cc-a02d-4e65-aa43-7f2f8283beff",
+          "title": "Order All Items",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Order All Items",
+              "fullTitle": "Order All Items Order All Items",
+              "timedOut": null,
+              "duration": 5502,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_LoginPage.onLoginPage.visitWebsite();\n_LoginPage.onLoginPage.LoginWithValidCredentials();\n_ProductsPage.onProductPage.verifytheitemsisloaded();\n_ProductsPage.onProductPage.verifyItemsNumber(6);\n_ProductsPage.onProductPage.orderallitems();\n_ProductsPage.onProductPage.verifytheitemsisadded();\n_BasketPage.onBasketPage.openBasket();\n_BasketPage.onBasketPage.Checkout();\n_CheckoutPage.OnCheckoutPage.EnterUserInformation('Kareem', 'Tester', '12345');\n_CheckoutPage.OnCheckoutPage.Continue();\n_OverviewPage.onOverviewPage.Finish();\n_CompletePage.OnCompletePage.ConfirmtheOrderisSubmitted();\n_CompletePage.OnCompletePage.BackHomePage();\n_ProductsPage.onProductPage.verifytheitemsisloaded();\n_ProductsPage.onProductPage.verifyItemsNumber(6);",
+              "err": {},
+              "uuid": "ba46143b-9cb8-4cf1-b2b8-9a85876863f5",
+              "parentUUID": "65a5d2cc-a02d-4e65-aa43-7f2f8283beff",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "ba46143b-9cb8-4cf1-b2b8-9a85876863f5"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 5502,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "62b7334a-db7e-45ec-9983-60761dc3600b",
+      "title": "",
+      "fullFile": "cypress\\e2e\\OrderFirstItems.cy.js",
+      "file": "cypress\\e2e\\OrderFirstItems.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "67786724-0d47-4fde-8f2b-72e1cc2af122",
+          "title": "Order Only First Items",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Order First Items v2",
+              "fullTitle": "Order Only First Items Order First Items v2",
+              "timedOut": null,
+              "duration": 4444,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_LoginPage.onLoginPage.visitWebsite();\n_LoginPage.onLoginPage.LoginWithValidCredentials();\n_ProductsPage.onProductPage.verifytheitemsisloaded();\n_ProductsPage.onProductPage.verifyItemsNumber(6);\n_ProductsPage.onProductPage.AddFirstitems();\n_ProductsPage.onProductPage.verifyFirstitemsisadded();\n_ProductsPage.onProductPage.GetPriceOfFirstitemsV2();\n_BasketPage.onBasketPage.openBasket();\n_BasketPage.onBasketPage.VerifyPriceOfFirstitemsV2();\n_BasketPage.onBasketPage.Checkout();\n_CheckoutPage.OnCheckoutPage.EnterUserInformation('Kareem', 'Tester', '12345');\n_CheckoutPage.OnCheckoutPage.Continue();\n_OverviewPage.onOverviewPage.Finish();\n_CompletePage.OnCompletePage.ConfirmtheOrderisSubmitted();\n_CompletePage.OnCompletePage.BackHomePage();\n_ProductsPage.onProductPage.verifytheitemsisloaded();\n_ProductsPage.onProductPage.verifyItemsNumber(6);",
+              "err": {},
+              "uuid": "ad4efb7a-166e-40ff-a721-fcf4264822c9",
+              "parentUUID": "67786724-0d47-4fde-8f2b-72e1cc2af122",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "ad4efb7a-166e-40ff-a721-fcf4264822c9"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 4444,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "689ff632-ae35-4c74-9bd6-8f25c94220f3",
+      "title": "",
+      "fullFile": "cypress\\e2e\\ReorderItems.cy.js",
+      "file": "cypress\\e2e\\ReorderItems.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "4470fb3c-968f-4b47-88aa-d7af6d73616a",
+          "title": "Reorder Items",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Reorder Items",
+              "fullTitle": "Reorder Items Reorder Items",
+              "timedOut": null,
+              "duration": 4951,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_LoginPage.onLoginPage.visitWebsite();\n_LoginPage.onLoginPage.LoginWithValidCredentials();\n_ProductsPage.onProductPage.verifytheitemsisloaded();\n_ProductsPage.onProductPage.verifyItemsNumber(6);\n_ProductsPage.onProductPage.ReorderItemfromLowtohigh();\n_ProductsPage.onProductPage.VerifytheproductfromLowtohigh();\n_ProductsPage.onProductPage.ReorderItemfromhightoLow();\n_ProductsPage.onProductPage.VerifytheproductfromHightoLow();\n_ProductsPage.onProductPage.ReorderItemfromAtoZ();\n_ProductsPage.onProductPage.VerifytheproductfromAtoZ();\n_ProductsPage.onProductPage.ReorderItemfromZtoA();\n_ProductsPage.onProductPage.VerifytheproductfromZtoA();",
+              "err": {},
+              "uuid": "e87159db-83c9-4c29-a961-da0f8d5b880e",
+              "parentUUID": "4470fb3c-968f-4b47-88aa-d7af6d73616a",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "e87159db-83c9-4c29-a961-da0f8d5b880e"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 4951,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "8672da6e-096f-48d8-8748-bab47d581d8d",
+      "title": "",
+      "fullFile": "cypress\\e2e\\ReorderItemsfromAtoZ.cy.js",
+      "file": "cypress\\e2e\\ReorderItemsfromAtoZ.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "a96a3951-387a-4d64-aa93-ef88045bdba1",
+          "title": "Reorder Items from A to Z",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Reorder Items from A to Z",
+              "fullTitle": "Reorder Items from A to Z Reorder Items from A to Z",
+              "timedOut": null,
+              "duration": 2942,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_LoginPage.onLoginPage.visitWebsite();\n_LoginPage.onLoginPage.LoginWithValidCredentials();\n_ProductsPage.onProductPage.verifytheitemsisloaded();\n_ProductsPage.onProductPage.verifyItemsNumber(6);\n_ProductsPage.onProductPage.ReorderItemfromAtoZ();\n_ProductsPage.onProductPage.VerifytheproductfromAtoZ();",
+              "err": {},
+              "uuid": "ca2d8f93-1f22-4b74-aa61-b0c19749f026",
+              "parentUUID": "a96a3951-387a-4d64-aa93-ef88045bdba1",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "ca2d8f93-1f22-4b74-aa61-b0c19749f026"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 2942,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "19445ff3-76cd-445a-86f1-eeb04f40a2fe",
+      "title": "",
+      "fullFile": "cypress\\e2e\\ReorderItemsfromHightoLow.cy.js",
+      "file": "cypress\\e2e\\ReorderItemsfromHightoLow.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "eaf76ce6-7b2d-4eba-b2cd-9115b712efef",
+          "title": "Reorder Items within Price from High to Low",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Reorder Items within Price from High to Low",
+              "fullTitle": "Reorder Items within Price from High to Low Reorder Items within Price from High to Low",
+              "timedOut": null,
+              "duration": 2063,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_LoginPage.onLoginPage.visitWebsite();\n_LoginPage.onLoginPage.LoginWithValidCredentials();\n_ProductsPage.onProductPage.verifytheitemsisloaded();\n_ProductsPage.onProductPage.verifyItemsNumber(6);\n_ProductsPage.onProductPage.ReorderItemfromhightoLow();\n_ProductsPage.onProductPage.VerifytheproductfromHightoLow();",
+              "err": {},
+              "uuid": "f6192200-c98b-4858-a151-656114089375",
+              "parentUUID": "eaf76ce6-7b2d-4eba-b2cd-9115b712efef",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "f6192200-c98b-4858-a151-656114089375"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 2063,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "a1b73157-f126-4fd0-a2fa-8bec46614c63",
+      "title": "",
+      "fullFile": "cypress\\e2e\\ReorderItemsfromLowtoHigh.cy.js",
+      "file": "cypress\\e2e\\ReorderItemsfromLowtoHigh.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "379b77e1-ed5e-46ce-9322-60f4ff4b8521",
+          "title": "Reorder Items within Price from Low to High",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Reorder Items",
+              "fullTitle": "Reorder Items within Price from Low to High Reorder Items",
+              "timedOut": null,
+              "duration": 3284,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_LoginPage.onLoginPage.visitWebsite();\n_LoginPage.onLoginPage.LoginWithValidCredentials();\n_ProductsPage.onProductPage.verifytheitemsisloaded();\n_ProductsPage.onProductPage.verifyItemsNumber(6);\n_ProductsPage.onProductPage.ReorderItemfromLowtohigh();\n_ProductsPage.onProductPage.VerifytheproductfromLowtohigh();",
+              "err": {},
+              "uuid": "c32f762e-994f-48d2-9643-e3d9938125cc",
+              "parentUUID": "379b77e1-ed5e-46ce-9322-60f4ff4b8521",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "c32f762e-994f-48d2-9643-e3d9938125cc"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 3284,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "b4f8b6ac-831c-451f-81cd-2bd6b5f247d5",
+      "title": "",
+      "fullFile": "cypress\\e2e\\ReorderItemsfromZtoA.cy.js",
+      "file": "cypress\\e2e\\ReorderItemsfromZtoA.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "f65daf98-4809-4b50-bace-0b0c84410fb2",
+          "title": "Reorder Items from Z to A",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Reorder Items",
+              "fullTitle": "Reorder Items from Z to A Reorder Items",
+              "timedOut": null,
+              "duration": 2404,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_LoginPage.onLoginPage.visitWebsite();\n_LoginPage.onLoginPage.LoginWithValidCredentials();\n_ProductsPage.onProductPage.verifytheitemsisloaded();\n_ProductsPage.onProductPage.verifyItemsNumber(6);\n_ProductsPage.onProductPage.ReorderItemfromZtoA();\n_ProductsPage.onProductPage.VerifytheproductfromZtoA();",
+              "err": {},
+              "uuid": "2cc08991-6290-4e3d-be13-f448b23a972c",
+              "parentUUID": "f65daf98-4809-4b50-bace-0b0c84410fb2",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "2cc08991-6290-4e3d-be13-f448b23a972c"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 2404,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "a45c9d37-f122-4311-94c7-fd2c018146a7",
+      "title": "",
+      "fullFile": "cypress\\e2e\\Login.cy.js",
+      "file": "cypress\\e2e\\Login.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "150bbdd1-828a-4e90-8a9d-0e1eb22f17c2",
+          "title": "Login",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Login with valid Credtential",
+              "fullTitle": "Login Login with valid Credtential",
+              "timedOut": null,
+              "duration": 3544,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('/');\n//define Elements\ncy.get('[data-test=\"username\"]').as('inputUsername');\ncy.get('#password').as('inputpassword');\ncy.get('[data-test=\"login-button\"]').as('buttonlogin');\n//Enter valid Username\ncy.get('@inputUsername').type(validusername);\ncy.get('@inputpassword').type(validPassword);\n//Verify\ncy.get('@inputUsername').invoke('prop', 'value').then(text => {\n  expect(text).to.equal(validusername);\n});\ncy.get('@inputpassword').invoke('prop', 'value').then(text => {\n  expect(text).to.equal(validPassword);\n});\n//Login\ncy.get('@buttonlogin').click();\ncy.get('[data-test=\"shopping-cart-link\"]').as('PageofItems');\n//page is displayed\ncy.get('@PageofItems').should('be.visible');\n//verify Drop downlist\ncy.get('[data-test=\"product-sort-container\"]').select('za');\ncy.get('.product_sort_container option').each(listitem => {\n  const List = listitem.text();\n  console.log(List);\n  cy.contains(List).click({\n    force: true\n  });\n});",
+              "err": {},
+              "uuid": "b6d0f089-9ce1-4ef3-8481-cd6ab607969a",
+              "parentUUID": "150bbdd1-828a-4e90-8a9d-0e1eb22f17c2",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "b6d0f089-9ce1-4ef3-8481-cd6ab607969a"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 3544,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/results/mochawesome",
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}

@@ -6,7 +6,7 @@ import{onOverviewPage} from '../pages/OverviewPage';
 import {OnCompletePage} from '../pages/CompletePage';
 
 
-describe('Order Items', () => {
+describe('Order Only First Items', () => {
   beforeEach(() => {
     cy.clearCookies();
     cy.clearLocalStorage();
@@ -52,7 +52,7 @@ describe('Order Items', () => {
 
     onProductPage.verifytheitemsisloaded()
     onProductPage.verifyItemsNumber(6)
-    
+
     onProductPage.AddFirstitems()
     onProductPage.verifyFirstitemsisadded()
     onProductPage.GetPriceOfFirstitemsV2()
