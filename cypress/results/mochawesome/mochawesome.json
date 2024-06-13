@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2024-06-13T14:04:36.303Z",
-    "end": "2024-06-13T14:04:39.916Z",
-    "duration": 3613,
+    "start": "2024-06-13T15:21:29.351Z",
+    "end": "2024-06-13T15:21:32.921Z",
+    "duration": 3570,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "a45c9d37-f122-4311-94c7-fd2c018146a7",
+      "uuid": "2c20de1a-98af-4c78-a182-a18e6abde3a2",
       "title": "",
       "fullFile": "cypress\\e2e\\Login.cy.js",
       "file": "cypress\\e2e\\Login.cy.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "150bbdd1-828a-4e90-8a9d-0e1eb22f17c2",
+          "uuid": "1fb0d838-7024-4357-a8d1-e428278ffd9d",
           "title": "Login",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Login with valid Credtential",
               "fullTitle": "Login Login with valid Credtential",
               "timedOut": null,
-              "duration": 3544,
+              "duration": 3519,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "cy.visit('/');\n//define Elements\ncy.get('[data-test=\"username\"]').as('inputUsername');\ncy.get('#password').as('inputpassword');\ncy.get('[data-test=\"login-button\"]').as('buttonlogin');\n//Enter valid Username\ncy.get('@inputUsername').type(validusername);\ncy.get('@inputpassword').type(validPassword);\n//Verify\ncy.get('@inputUsername').invoke('prop', 'value').then(text => {\n  expect(text).to.equal(validusername);\n});\ncy.get('@inputpassword').invoke('prop', 'value').then(text => {\n  expect(text).to.equal(validPassword);\n});\n//Login\ncy.get('@buttonlogin').click();\ncy.get('[data-test=\"shopping-cart-link\"]').as('PageofItems');\n//page is displayed\ncy.get('@PageofItems').should('be.visible');\n//verify Drop downlist\ncy.get('[data-test=\"product-sort-container\"]').select('za');\ncy.get('.product_sort_container option').each(listitem => {\n  const List = listitem.text();\n  console.log(List);\n  cy.contains(List).click({\n    force: true\n  });\n});",
               "err": {},
-              "uuid": "b6d0f089-9ce1-4ef3-8481-cd6ab607969a",
-              "parentUUID": "150bbdd1-828a-4e90-8a9d-0e1eb22f17c2",
+              "uuid": "7faff4fb-222a-4d86-bad4-4fd3a21b3828",
+              "parentUUID": "1fb0d838-7024-4357-a8d1-e428278ffd9d",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "b6d0f089-9ce1-4ef3-8481-cd6ab607969a"
+            "7faff4fb-222a-4d86-bad4-4fd3a21b3828"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 3544,
+          "duration": 3519,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

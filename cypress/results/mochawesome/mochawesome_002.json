@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2024-06-13T14:04:50.673Z",
-    "end": "2024-06-13T14:04:55.222Z",
-    "duration": 4549,
+    "start": "2024-06-13T15:21:46.349Z",
+    "end": "2024-06-13T15:21:51.191Z",
+    "duration": 4842,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "62b7334a-db7e-45ec-9983-60761dc3600b",
+      "uuid": "1d12407b-e3ae-44e4-a4cb-4976ca6022f1",
       "title": "",
       "fullFile": "cypress\\e2e\\OrderFirstItems.cy.js",
       "file": "cypress\\e2e\\OrderFirstItems.cy.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "67786724-0d47-4fde-8f2b-72e1cc2af122",
+          "uuid": "b670321c-2f81-4842-ba9b-2f130ccacd19",
           "title": "Order Only First Items",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Order First Items v2",
               "fullTitle": "Order Only First Items Order First Items v2",
               "timedOut": null,
-              "duration": 4444,
+              "duration": 4722,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "_LoginPage.onLoginPage.visitWebsite();\n_LoginPage.onLoginPage.LoginWithValidCredentials();\n_ProductsPage.onProductPage.verifytheitemsisloaded();\n_ProductsPage.onProductPage.verifyItemsNumber(6);\n_ProductsPage.onProductPage.AddFirstitems();\n_ProductsPage.onProductPage.verifyFirstitemsisadded();\n_ProductsPage.onProductPage.GetPriceOfFirstitemsV2();\n_BasketPage.onBasketPage.openBasket();\n_BasketPage.onBasketPage.VerifyPriceOfFirstitemsV2();\n_BasketPage.onBasketPage.Checkout();\n_CheckoutPage.OnCheckoutPage.EnterUserInformation('Kareem', 'Tester', '12345');\n_CheckoutPage.OnCheckoutPage.Continue();\n_OverviewPage.onOverviewPage.Finish();\n_CompletePage.OnCompletePage.ConfirmtheOrderisSubmitted();\n_CompletePage.OnCompletePage.BackHomePage();\n_ProductsPage.onProductPage.verifytheitemsisloaded();\n_ProductsPage.onProductPage.verifyItemsNumber(6);",
               "err": {},
-              "uuid": "ad4efb7a-166e-40ff-a721-fcf4264822c9",
-              "parentUUID": "67786724-0d47-4fde-8f2b-72e1cc2af122",
+              "uuid": "27715a37-600c-40f0-808b-9d822a78cd37",
+              "parentUUID": "b670321c-2f81-4842-ba9b-2f130ccacd19",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "ad4efb7a-166e-40ff-a721-fcf4264822c9"
+            "27715a37-600c-40f0-808b-9d822a78cd37"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 4444,
+          "duration": 4722,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

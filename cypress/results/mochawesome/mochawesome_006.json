@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2024-06-13T14:05:16.843Z",
-    "end": "2024-06-13T14:05:20.335Z",
-    "duration": 3492,
+    "start": "2024-06-13T15:22:11.383Z",
+    "end": "2024-06-13T15:22:13.576Z",
+    "duration": 2193,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "a1b73157-f126-4fd0-a2fa-8bec46614c63",
+      "uuid": "1d8953c3-828b-4059-9e2e-5a3c71685b12",
       "title": "",
       "fullFile": "cypress\\e2e\\ReorderItemsfromLowtoHigh.cy.js",
       "file": "cypress\\e2e\\ReorderItemsfromLowtoHigh.cy.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "379b77e1-ed5e-46ce-9322-60f4ff4b8521",
+          "uuid": "f437ba99-c601-4f01-8351-c203bf9e0630",
           "title": "Reorder Items within Price from Low to High",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Reorder Items",
               "fullTitle": "Reorder Items within Price from Low to High Reorder Items",
               "timedOut": null,
-              "duration": 3284,
+              "duration": 2065,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "_LoginPage.onLoginPage.visitWebsite();\n_LoginPage.onLoginPage.LoginWithValidCredentials();\n_ProductsPage.onProductPage.verifytheitemsisloaded();\n_ProductsPage.onProductPage.verifyItemsNumber(6);\n_ProductsPage.onProductPage.ReorderItemfromLowtohigh();\n_ProductsPage.onProductPage.VerifytheproductfromLowtohigh();",
               "err": {},
-              "uuid": "c32f762e-994f-48d2-9643-e3d9938125cc",
-              "parentUUID": "379b77e1-ed5e-46ce-9322-60f4ff4b8521",
+              "uuid": "5af7e9d9-d9f2-4e25-8beb-12308a297b8e",
+              "parentUUID": "f437ba99-c601-4f01-8351-c203bf9e0630",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "c32f762e-994f-48d2-9643-e3d9938125cc"
+            "5af7e9d9-d9f2-4e25-8beb-12308a297b8e"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 3284,
+          "duration": 2065,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
