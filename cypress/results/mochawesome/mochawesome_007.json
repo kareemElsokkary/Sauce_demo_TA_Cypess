@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2024-06-13T15:22:15.961Z",
-    "end": "2024-06-13T15:22:18.769Z",
-    "duration": 2808,
+    "start": "2024-06-13T16:50:45.016Z",
+    "end": "2024-06-13T16:50:50.443Z",
+    "duration": 5427,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "9c172552-9f1f-48a4-b822-0f183283bf1e",
+      "uuid": "bba482ef-960a-4e3e-bba3-7a006696746e",
       "title": "",
       "fullFile": "cypress\\e2e\\ReorderItemsfromZtoA.cy.js",
       "file": "cypress\\e2e\\ReorderItemsfromZtoA.cy.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "d8eb559f-3697-4e06-ba52-76cd5b82bd25",
+          "uuid": "9986c20b-2711-4e70-afca-df710f6a143e",
           "title": "Reorder Items from Z to A",
           "fullFile": "",
           "file": "",
@@ -38,29 +38,29 @@
               "title": "Reorder Items",
               "fullTitle": "Reorder Items from Z to A Reorder Items",
               "timedOut": null,
-              "duration": 2651,
+              "duration": 5282,
               "state": "passed",
-              "speed": "fast",
+              "speed": "medium",
               "pass": true,
               "fail": false,
               "pending": false,
               "context": null,
               "code": "_LoginPage.onLoginPage.visitWebsite();\n_LoginPage.onLoginPage.LoginWithValidCredentials();\n_ProductsPage.onProductPage.verifytheitemsisloaded();\n_ProductsPage.onProductPage.verifyItemsNumber(6);\n_ProductsPage.onProductPage.ReorderItemfromZtoA();\n_ProductsPage.onProductPage.VerifytheproductfromZtoA();",
               "err": {},
-              "uuid": "57b0ee30-10b6-44dd-b2b4-ffb2b0c48e9a",
-              "parentUUID": "d8eb559f-3697-4e06-ba52-76cd5b82bd25",
+              "uuid": "6f31ad17-b610-409d-8fe7-b42f54596515",
+              "parentUUID": "9986c20b-2711-4e70-afca-df710f6a143e",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "57b0ee30-10b6-44dd-b2b4-ffb2b0c48e9a"
+            "6f31ad17-b610-409d-8fe7-b42f54596515"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 2651,
+          "duration": 5282,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

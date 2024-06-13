@@ -1,58 +1,170 @@
 <?xml version="1.0"?>
 <testsuites>
-<testsuite name="Root Suite" timestamp="2024-06-13T15:21:36" tests="0" file="cypress\e2e\OrderAllItems.cy.js" time="0.000" failures="0"></testsuite>
-<testsuite name="Order All Items" timestamp="2024-06-13T15:21:36" tests="1" time="5.707" failures="0">
+<testsuite name="Root Suite" timestamp="2024-06-13T16:51:47" tests="0" file="cypress\e2e\ReorderItemsfromHightoLow.cy.js" time="0.000" failures="0"></testsuite>
+<testsuite name="Reorder Items within Price from High to Low" timestamp="2024-06-13T16:51:47" tests="1" time="2.743" failures="0">
   
-  <testcase name="Order All Items Order All Items" time="5.635" classname="Order All Items"></testcase>
-  
-</testsuite>
-
-<testsuite name="Root Suite" timestamp="2024-06-13T15:21:54" tests="0" file="cypress\e2e\ReorderItems.cy.js" time="0.000" failures="0"></testsuite>
-<testsuite name="Reorder Items" timestamp="2024-06-13T15:21:54" tests="1" time="5.243" failures="0">
-  
-  <testcase name="Reorder Items Reorder Items" time="5.084" classname="Reorder Items"></testcase>
+  <testcase name="Reorder Items within Price from High to Low Reorder Items within Price from High to Low" time="2.600" classname="Reorder Items within Price from High to Low"></testcase>
   
 </testsuite>
 
-<testsuite name="Root Suite" timestamp="2024-06-13T15:22:01" tests="0" file="cypress\e2e\ReorderItemsfromAtoZ.cy.js" time="0.000" failures="0"></testsuite>
-<testsuite name="Reorder Items from A to Z" timestamp="2024-06-13T15:22:01" tests="1" time="2.206" failures="0">
+<testsuite name="Root Suite" timestamp="2024-06-13T16:52:27" tests="0" file="cypress\e2e\Login.cy.js" time="0.000" failures="0"></testsuite>
+<testsuite name="Login" timestamp="2024-06-13T16:52:27" tests="1" time="3.366" failures="0">
   
-  <testcase name="Reorder Items from A to Z Reorder Items from A to Z" time="2.032" classname="Reorder Items from A to Z"></testcase>
-  
-</testsuite>
-
-<testsuite name="Root Suite" timestamp="2024-06-13T15:22:15" tests="0" file="cypress\e2e\ReorderItemsfromZtoA.cy.js" time="0.000" failures="0"></testsuite>
-<testsuite name="Reorder Items from Z to A" timestamp="2024-06-13T15:22:15" tests="1" time="2.800" failures="0">
-  
-  <testcase name="Reorder Items from Z to A Reorder Items" time="2.651" classname="Reorder Items"></testcase>
+  <testcase name="Login Login with valid Credtential" time="3.319" classname="Login with valid Credtential"></testcase>
   
 </testsuite>
 
-<testsuite name="Root Suite" timestamp="2024-06-13T15:22:06" tests="0" file="cypress\e2e\ReorderItemsfromHightoLow.cy.js" time="0.000" failures="0"></testsuite>
-<testsuite name="Reorder Items within Price from High to Low" timestamp="2024-06-13T15:22:06" tests="1" time="2.437" failures="0">
+<testsuite name="Root Suite" timestamp="2024-06-13T16:53:24" tests="0" file="cypress\e2e\ReorderItemsfromZtoA.cy.js" time="0.000" failures="0"></testsuite>
+<testsuite name="Reorder Items from Z to A" timestamp="2024-06-13T16:53:24" tests="1" time="3.023" failures="0">
   
-  <testcase name="Reorder Items within Price from High to Low Reorder Items within Price from High to Low" time="2.313" classname="Reorder Items within Price from High to Low"></testcase>
-  
-</testsuite>
-
-<testsuite name="Root Suite" timestamp="2024-06-13T15:21:46" tests="0" file="cypress\e2e\OrderFirstItems.cy.js" time="0.000" failures="0"></testsuite>
-<testsuite name="Order Only First Items" timestamp="2024-06-13T15:21:46" tests="1" time="4.831" failures="0">
-  
-  <testcase name="Order Only First Items Order First Items v2" time="4.722" classname="Order First Items v2"></testcase>
+  <testcase name="Reorder Items from Z to A Reorder Items" time="2.899" classname="Reorder Items"></testcase>
   
 </testsuite>
 
-<testsuite name="Root Suite" timestamp="2024-06-13T15:22:11" tests="0" file="cypress\e2e\ReorderItemsfromLowtoHigh.cy.js" time="0.000" failures="0"></testsuite>
-<testsuite name="Reorder Items within Price from Low to High" timestamp="2024-06-13T15:22:11" tests="1" time="2.186" failures="0">
+<testsuite name="Root Suite" timestamp="2024-06-13T16:53:03" tests="0" file="cypress\e2e\ReorderItemsfromAtoZ.cy.js" time="0.000" failures="0"></testsuite>
+<testsuite name="Reorder Items from A to Z" timestamp="2024-06-13T16:53:03" tests="1" time="3.137" failures="0">
   
-  <testcase name="Reorder Items within Price from Low to High Reorder Items" time="2.065" classname="Reorder Items"></testcase>
+  <testcase name="Reorder Items from A to Z Reorder Items from A to Z" time="2.986" classname="Reorder Items from A to Z"></testcase>
   
 </testsuite>
 
-<testsuite name="Root Suite" timestamp="2024-06-13T15:21:29" tests="0" file="cypress\e2e\Login.cy.js" time="0.000" failures="0"></testsuite>
-<testsuite name="Login" timestamp="2024-06-13T15:21:29" tests="1" time="3.561" failures="0">
+<testsuite name="Root Suite" timestamp="2024-06-13T16:50:32" tests="0" file="cypress\e2e\ReorderItemsfromHightoLow.cy.js" time="0.000" failures="0"></testsuite>
+<testsuite name="Reorder Items within Price from High to Low" timestamp="2024-06-13T16:50:32" tests="1" time="2.786" failures="0">
   
-  <testcase name="Login Login with valid Credtential" time="3.519" classname="Login with valid Credtential"></testcase>
+  <testcase name="Reorder Items within Price from High to Low Reorder Items within Price from High to Low" time="2.631" classname="Reorder Items within Price from High to Low"></testcase>
+  
+</testsuite>
+
+<testsuite name="Root Suite" timestamp="2024-06-13T16:51:35" tests="0" file="cypress\e2e\ReorderItems.cy.js" time="0.000" failures="0"></testsuite>
+<testsuite name="Reorder Items" timestamp="2024-06-13T16:51:35" tests="1" time="4.473" failures="0">
+  
+  <testcase name="Reorder Items Reorder Items" time="4.275" classname="Reorder Items"></testcase>
+  
+</testsuite>
+
+<testsuite name="Root Suite" timestamp="2024-06-13T16:52:46" tests="0" file="cypress\e2e\OrderFirstItems.cy.js" time="0.000" failures="0"></testsuite>
+<testsuite name="Order Only First Items" timestamp="2024-06-13T16:52:46" tests="1" time="4.268" failures="0">
+  
+  <testcase name="Order Only First Items Order First Items v2" time="4.140" classname="Order First Items v2"></testcase>
+  
+</testsuite>
+
+<testsuite name="Root Suite" timestamp="2024-06-13T16:50:38" tests="0" file="cypress\e2e\ReorderItemsfromLowtoHigh.cy.js" time="0.000" failures="0"></testsuite>
+<testsuite name="Reorder Items within Price from Low to High" timestamp="2024-06-13T16:50:38" tests="1" time="2.748" failures="0">
+  
+  <testcase name="Reorder Items within Price from Low to High Reorder Items" time="2.641" classname="Reorder Items"></testcase>
+  
+</testsuite>
+
+<testsuite name="Root Suite" timestamp="2024-06-13T16:51:42" tests="0" file="cypress\e2e\ReorderItemsfromAtoZ.cy.js" time="0.000" failures="0"></testsuite>
+<testsuite name="Reorder Items from A to Z" timestamp="2024-06-13T16:51:42" tests="1" time="2.547" failures="0">
+  
+  <testcase name="Reorder Items from A to Z Reorder Items from A to Z" time="2.418" classname="Reorder Items from A to Z"></testcase>
+  
+</testsuite>
+
+<testsuite name="Root Suite" timestamp="2024-06-13T16:52:53" tests="0" file="cypress\e2e\ReorderItems.cy.js" time="0.000" failures="0"></testsuite>
+<testsuite name="Reorder Items" timestamp="2024-06-13T16:52:53" tests="1" time="5.707" failures="0">
+  
+  <testcase name="Reorder Items Reorder Items" time="5.527" classname="Reorder Items"></testcase>
+  
+</testsuite>
+
+<testsuite name="Root Suite" timestamp="2024-06-13T16:51:52" tests="0" file="cypress\e2e\ReorderItemsfromLowtoHigh.cy.js" time="0.000" failures="0"></testsuite>
+<testsuite name="Reorder Items within Price from Low to High" timestamp="2024-06-13T16:51:52" tests="1" time="2.686" failures="0">
+  
+  <testcase name="Reorder Items within Price from Low to High Reorder Items" time="2.570" classname="Reorder Items"></testcase>
+  
+</testsuite>
+
+<testsuite name="Root Suite" timestamp="2024-06-13T16:53:17" tests="0" file="cypress\e2e\ReorderItemsfromLowtoHigh.cy.js" time="0.000" failures="0"></testsuite>
+<testsuite name="Reorder Items within Price from Low to High" timestamp="2024-06-13T16:53:17" tests="1" time="4.805" failures="0">
+  
+  <testcase name="Reorder Items within Price from Low to High Reorder Items" time="2.867" classname="Reorder Items"></testcase>
+  
+</testsuite>
+
+<testsuite name="Root Suite" timestamp="2024-06-13T16:50:12" tests="0" file="cypress\e2e\OrderFirstItems.cy.js" time="0.000" failures="0"></testsuite>
+<testsuite name="Order Only First Items" timestamp="2024-06-13T16:50:12" tests="1" time="3.854" failures="0">
+  
+  <testcase name="Order Only First Items Order First Items v2" time="3.758" classname="Order First Items v2"></testcase>
+  
+</testsuite>
+
+<testsuite name="Root Suite" timestamp="2024-06-13T16:49:57" tests="0" file="cypress\e2e\Login.cy.js" time="0.000" failures="0"></testsuite>
+<testsuite name="Login" timestamp="2024-06-13T16:49:57" tests="1" time="3.371" failures="0">
+  
+  <testcase name="Login Login with valid Credtential" time="3.318" classname="Login with valid Credtential"></testcase>
+  
+</testsuite>
+
+<testsuite name="Root Suite" timestamp="2024-06-13T16:52:38" tests="0" file="cypress\e2e\OrderAllItems.cy.js" time="0.000" failures="0"></testsuite>
+<testsuite name="Order All Items" timestamp="2024-06-13T16:52:38" tests="1" time="5.167" failures="0">
+  
+  <testcase name="Order All Items Order All Items" time="5.055" classname="Order All Items"></testcase>
+  
+</testsuite>
+
+<testsuite name="Root Suite" timestamp="2024-06-13T16:51:14" tests="0" file="cypress\e2e\Login.cy.js" time="0.000" failures="0"></testsuite>
+<testsuite name="Login" timestamp="2024-06-13T16:51:14" tests="1" time="3.408" failures="0">
+  
+  <testcase name="Login Login with valid Credtential" time="3.305" classname="Login with valid Credtential"></testcase>
+  
+</testsuite>
+
+<testsuite name="Root Suite" timestamp="2024-06-13T16:50:03" tests="0" file="cypress\e2e\OrderAllItems.cy.js" time="0.000" failures="0"></testsuite>
+<testsuite name="Order All Items" timestamp="2024-06-13T16:50:03" tests="1" time="5.407" failures="0">
+  
+  <testcase name="Order All Items Order All Items" time="5.335" classname="Order All Items"></testcase>
+  
+</testsuite>
+
+<testsuite name="Root Suite" timestamp="2024-06-13T16:51:20" tests="0" file="cypress\e2e\OrderAllItems.cy.js" time="0.000" failures="0"></testsuite>
+<testsuite name="Order All Items" timestamp="2024-06-13T16:51:20" tests="1" time="5.385" failures="0">
+  
+  <testcase name="Order All Items Order All Items" time="5.253" classname="Order All Items"></testcase>
+  
+</testsuite>
+
+<testsuite name="Root Suite" timestamp="2024-06-13T16:50:45" tests="0" file="cypress\e2e\ReorderItemsfromZtoA.cy.js" time="0.000" failures="0"></testsuite>
+<testsuite name="Reorder Items from Z to A" timestamp="2024-06-13T16:50:45" tests="1" time="5.417" failures="0">
+  
+  <testcase name="Reorder Items from Z to A Reorder Items" time="5.282" classname="Reorder Items"></testcase>
+  
+</testsuite>
+
+<testsuite name="Root Suite" timestamp="2024-06-13T16:53:09" tests="0" file="cypress\e2e\ReorderItemsfromHightoLow.cy.js" time="0.000" failures="0"></testsuite>
+<testsuite name="Reorder Items within Price from High to Low" timestamp="2024-06-13T16:53:09" tests="1" time="3.130" failures="0">
+  
+  <testcase name="Reorder Items within Price from High to Low Reorder Items within Price from High to Low" time="3.014" classname="Reorder Items within Price from High to Low"></testcase>
+  
+</testsuite>
+
+<testsuite name="Root Suite" timestamp="2024-06-13T16:51:28" tests="0" file="cypress\e2e\OrderFirstItems.cy.js" time="0.000" failures="0"></testsuite>
+<testsuite name="Order Only First Items" timestamp="2024-06-13T16:51:28" tests="1" time="4.087" failures="0">
+  
+  <testcase name="Order Only First Items Order First Items v2" time="3.989" classname="Order First Items v2"></testcase>
+  
+</testsuite>
+
+<testsuite name="Root Suite" timestamp="2024-06-13T16:50:27" tests="0" file="cypress\e2e\ReorderItemsfromAtoZ.cy.js" time="0.000" failures="0"></testsuite>
+<testsuite name="Reorder Items from A to Z" timestamp="2024-06-13T16:50:27" tests="1" time="2.796" failures="0">
+  
+  <testcase name="Reorder Items from A to Z Reorder Items from A to Z" time="2.688" classname="Reorder Items from A to Z"></testcase>
+  
+</testsuite>
+
+<testsuite name="Root Suite" timestamp="2024-06-13T16:50:19" tests="0" file="cypress\e2e\ReorderItems.cy.js" time="0.000" failures="0"></testsuite>
+<testsuite name="Reorder Items" timestamp="2024-06-13T16:50:19" tests="1" time="4.576" failures="0">
+  
+  <testcase name="Reorder Items Reorder Items" time="4.366" classname="Reorder Items"></testcase>
+  
+</testsuite>
+
+<testsuite name="Root Suite" timestamp="2024-06-13T16:51:57" tests="0" file="cypress\e2e\ReorderItemsfromZtoA.cy.js" time="0.000" failures="0"></testsuite>
+<testsuite name="Reorder Items from Z to A" timestamp="2024-06-13T16:51:57" tests="1" time="2.477" failures="0">
+  
+  <testcase name="Reorder Items from Z to A Reorder Items" time="2.336" classname="Reorder Items"></testcase>
   
 </testsuite>
 

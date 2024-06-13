@@ -7,6 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "cy:open": "npx cypress open",
     "cy:run": "npx cypress run",
+    "cy:run:chrome": "cypress run --browser chrome",
+    "cy:run:firefox": "cypress run --browser firefox",
+    "cy:run:edge": "cypress run --browser edge",
     "cy:report": "cypress run --reporter cypress-multi-reporters",
     "cy:run:SauceDemo:Login": "npx cypress run --spec 'cypress/e2e/Login.cy.js'",
     "cy:run:SauceDemo:OrderallItems": "npx cypress run --spec 'cypress/e2e/OrderAllItems.cy.js'",
@@ -14,10 +17,18 @@
     "Merge:Report:mocha": "npx mochawesome-merge \"cypress/results/mochawesome/*.json\" > mochawesome.json",
     "GenerateHTMLReport":"npx marge mochawesome.json",
     "Merge:Report:Junit": "npx junit-merge -d cypress/results/junit -o cypress/results/OneReport/Junit/merged-report.xml ",
+
+
     "runCyScript": "npm run cy:run &&npm run Merge:Report:Junit && npm run Merge:Report:mocha && npm run GenerateHTMLReport",
+    "runCyScript:chrome": "npm run cy:run:chrome &&npm run Merge:Report:Junit && npm run Merge:Report:mocha && npm run GenerateHTMLReport",
+    "runCyScript:firefox": "npm run cy:run:firefox &&npm run Merge:Report:Junit && npm run Merge:Report:mocha && npm run GenerateHTMLReport",
+    "runCyScript:edge": "npm run cy:run:edge &&npm run Merge:Report:Junit && npm run Merge:Report:mocha && npm run GenerateHTMLReport",
+
     "Start:RegressionTesting": "npm run prereport && npm run runCyScript",
+    "Start:RegressionTesting:AllBrowser": "npm run prereport && npm run runCyScript:chrome&& npm run runCyScript:firefox && npm run runCyScript:edge",
+
     "GenerateReport": "npm run  Merge:Report:Junit && npm run Merge:Report:mocha && npm run GenerateHTMLReport",
-    "e2e:chrome": "cypress run --browser chrome",
+
     "delete:reports:junit": "powershell -Command \"Remove-Item -Path cypress/results/junit/* -Force -Recurse\"",
     "delete:reports:mocha": "powershell -Command \"if (Test-Path 'cypress/results/mochawesome/*.json') { Remove-Item 'cypress/results/mochawesome/*.json' -Force } else { Write-Host 'No files to delete' }\"",
     "delete:reports": "rm cypress/results/* || true",

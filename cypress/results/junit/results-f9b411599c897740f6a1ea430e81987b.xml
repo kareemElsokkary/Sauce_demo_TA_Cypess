@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="Mocha Tests" time="2.193" tests="1" failures="0">
-  <testsuite name="Root Suite" timestamp="2024-06-13T15:22:11" tests="0" file="cypress\e2e\ReorderItemsfromLowtoHigh.cy.js" time="0.000" failures="0">
-  </testsuite>
-  <testsuite name="Reorder Items within Price from Low to High" timestamp="2024-06-13T15:22:11" tests="1" time="2.186" failures="0">
-    <testcase name="Reorder Items within Price from Low to High Reorder Items" time="2.065" classname="Reorder Items">
-    </testcase>
-  </testsuite>
-</testsuites>
