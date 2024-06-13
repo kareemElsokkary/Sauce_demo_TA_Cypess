@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2024-06-13T15:22:06.724Z",
-    "end": "2024-06-13T15:22:09.171Z",
-    "duration": 2447,
+    "start": "2024-06-13T16:50:32.866Z",
+    "end": "2024-06-13T16:50:35.662Z",
+    "duration": 2796,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "2de3bd50-99c7-4d45-92f5-97b05b104a3f",
+      "uuid": "ee8c525c-ef55-45d3-bf24-5f7dbda7d69a",
       "title": "",
       "fullFile": "cypress\\e2e\\ReorderItemsfromHightoLow.cy.js",
       "file": "cypress\\e2e\\ReorderItemsfromHightoLow.cy.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "3359c94e-bc40-4869-83d5-5413903fe323",
+          "uuid": "dfdbe23b-e546-4bc6-aa57-8fdc946c0112",
           "title": "Reorder Items within Price from High to Low",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Reorder Items within Price from High to Low",
               "fullTitle": "Reorder Items within Price from High to Low Reorder Items within Price from High to Low",
               "timedOut": null,
-              "duration": 2313,
+              "duration": 2631,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "_LoginPage.onLoginPage.visitWebsite();\n_LoginPage.onLoginPage.LoginWithValidCredentials();\n_ProductsPage.onProductPage.verifytheitemsisloaded();\n_ProductsPage.onProductPage.verifyItemsNumber(6);\n_ProductsPage.onProductPage.ReorderItemfromhightoLow();\n_ProductsPage.onProductPage.VerifytheproductfromHightoLow();",
               "err": {},
-              "uuid": "a292cc5e-b733-4c63-be71-a6985cf24eb5",
-              "parentUUID": "3359c94e-bc40-4869-83d5-5413903fe323",
+              "uuid": "03ff4a82-77ed-4420-884c-81ead5f82371",
+              "parentUUID": "dfdbe23b-e546-4bc6-aa57-8fdc946c0112",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "a292cc5e-b733-4c63-be71-a6985cf24eb5"
+            "03ff4a82-77ed-4420-884c-81ead5f82371"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 2313,
+          "duration": 2631,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
