@@ -1,0 +1,106 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2024-06-13T14:04:58.041Z",
+    "end": "2024-06-13T14:05:03.824Z",
+    "duration": 5783,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "689ff632-ae35-4c74-9bd6-8f25c94220f3",
+      "title": "",
+      "fullFile": "cypress\\e2e\\ReorderItems.cy.js",
+      "file": "cypress\\e2e\\ReorderItems.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "4470fb3c-968f-4b47-88aa-d7af6d73616a",
+          "title": "Reorder Items",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Reorder Items",
+              "fullTitle": "Reorder Items Reorder Items",
+              "timedOut": null,
+              "duration": 4951,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_LoginPage.onLoginPage.visitWebsite();\n_LoginPage.onLoginPage.LoginWithValidCredentials();\n_ProductsPage.onProductPage.verifytheitemsisloaded();\n_ProductsPage.onProductPage.verifyItemsNumber(6);\n_ProductsPage.onProductPage.ReorderItemfromLowtohigh();\n_ProductsPage.onProductPage.VerifytheproductfromLowtohigh();\n_ProductsPage.onProductPage.ReorderItemfromhightoLow();\n_ProductsPage.onProductPage.VerifytheproductfromHightoLow();\n_ProductsPage.onProductPage.ReorderItemfromAtoZ();\n_ProductsPage.onProductPage.VerifytheproductfromAtoZ();\n_ProductsPage.onProductPage.ReorderItemfromZtoA();\n_ProductsPage.onProductPage.VerifytheproductfromZtoA();",
+              "err": {},
+              "uuid": "e87159db-83c9-4c29-a961-da0f8d5b880e",
+              "parentUUID": "4470fb3c-968f-4b47-88aa-d7af6d73616a",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "e87159db-83c9-4c29-a961-da0f8d5b880e"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 4951,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/results/mochawesome",
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}

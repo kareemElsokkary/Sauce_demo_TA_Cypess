@@ -5,7 +5,7 @@ class LoginPage {
 
 
     Enterusername(){
-        let validusername='standard_user'
+        let validusername=Cypress.env('username')
 
         cy.get('[data-test="username"]').as('inputUsername')
 
@@ -19,7 +19,7 @@ class LoginPage {
     }
 
     Enterpassword(){
-        let validPassword='secret_sauce'
+        let validPassword=Cypress.env('password');
 
         cy.get('#password').as('inputpassword')
         cy.get('@inputpassword').type(validPassword)
