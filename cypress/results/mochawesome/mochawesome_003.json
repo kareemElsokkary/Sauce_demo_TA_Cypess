@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2024-06-13T14:04:58.041Z",
-    "end": "2024-06-13T14:05:03.824Z",
-    "duration": 5783,
+    "start": "2024-06-13T15:21:54.358Z",
+    "end": "2024-06-13T15:21:59.610Z",
+    "duration": 5252,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "689ff632-ae35-4c74-9bd6-8f25c94220f3",
+      "uuid": "77ee1486-e33e-46ed-bcf3-8f11e68ab81e",
       "title": "",
       "fullFile": "cypress\\e2e\\ReorderItems.cy.js",
       "file": "cypress\\e2e\\ReorderItems.cy.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "4470fb3c-968f-4b47-88aa-d7af6d73616a",
+          "uuid": "45e52e84-f190-4a2a-b469-6f3b57d4299f",
           "title": "Reorder Items",
           "fullFile": "",
           "file": "",
@@ -38,29 +38,29 @@
               "title": "Reorder Items",
               "fullTitle": "Reorder Items Reorder Items",
               "timedOut": null,
-              "duration": 4951,
+              "duration": 5084,
               "state": "passed",
-              "speed": "fast",
+              "speed": "medium",
               "pass": true,
               "fail": false,
               "pending": false,
               "context": null,
               "code": "_LoginPage.onLoginPage.visitWebsite();\n_LoginPage.onLoginPage.LoginWithValidCredentials();\n_ProductsPage.onProductPage.verifytheitemsisloaded();\n_ProductsPage.onProductPage.verifyItemsNumber(6);\n_ProductsPage.onProductPage.ReorderItemfromLowtohigh();\n_ProductsPage.onProductPage.VerifytheproductfromLowtohigh();\n_ProductsPage.onProductPage.ReorderItemfromhightoLow();\n_ProductsPage.onProductPage.VerifytheproductfromHightoLow();\n_ProductsPage.onProductPage.ReorderItemfromAtoZ();\n_ProductsPage.onProductPage.VerifytheproductfromAtoZ();\n_ProductsPage.onProductPage.ReorderItemfromZtoA();\n_ProductsPage.onProductPage.VerifytheproductfromZtoA();",
               "err": {},
-              "uuid": "e87159db-83c9-4c29-a961-da0f8d5b880e",
-              "parentUUID": "4470fb3c-968f-4b47-88aa-d7af6d73616a",
+              "uuid": "5e7e7f8f-7ab5-4871-a6d3-a088d4a870b1",
+              "parentUUID": "45e52e84-f190-4a2a-b469-6f3b57d4299f",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "e87159db-83c9-4c29-a961-da0f8d5b880e"
+            "5e7e7f8f-7ab5-4871-a6d3-a088d4a870b1"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 4951,
+          "duration": 5084,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
